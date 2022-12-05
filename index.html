@@ -1,255 +1,636 @@
 <!DOCTYPE html>
-<edit lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKHIL</title>
-    <link rel="stylesheet" href="./css/style.css">
-
-    <!--------------------------------fontawesome----------------------------->
-   
-    <script src="https://kit.fontawesome.com/7d40611126.js" crossorigin="anonymous"></script>
+    <title>Akhil S</title>
+    <!--===== Font Awesome =====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--===== Main CSS =====-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <img src="https://www.omsoftsolution.com/images/maintanance.gif">
-    <img class="2nd" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4QB32Z8d7quhMhyfhwBu_JnisfoxzjD_GwA&usqp=CAU">
-    
-   <!-- <div id="header">
+    <!--===== Navbar Start =====-->
+    <nav class="navbar">
         <div class="container">
-            <nav>
-                 <h1 class="title">A<span>khil.</span></h1>
-            <!--   <img src="./images/logo.png" alt="logo image" class="logo"> -->
-            <!--    <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-times" onclick="closemenu()"></i>
+            <div class="row justify-content-between w-100">
+                <div class="logo"><a href="index.html">Ak<span>hil</span></a></div>
+                <div class="links">
+                <ul class="menu">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home <span></span></a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About <span></span></a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education <span></span></a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills <span></span></a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio <span></span></a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact <span></span></a></li>
                 </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <h1>Hello, I'm <span>Akhil</span><br> Web Developer</h1>
-                 <p>FULL STACK DEVELOPER</p>
+                </div>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
-    </div>
--->
-    
-    <!---------------About----------------------------->
-    
-    
-    
-  <!--  <div id="about">
+    </nav>
+    <!--===== Navbar End =====-->
+    <!--===== Home Section Start =====-->
+    <section class="home-section" id="home">
+        <ul class="header-social"> <!--===== Header Social =====-->
+            <li><a href="https://github.com/"  target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://stackoverflow.com/" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin" ></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" ></i></a></li>
+        </ul>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <h4>Hi there &#128512;!I'm</h4>
+                    <h1>Akhil S</h1>
+                    <span>Frontend Developer | Reactjs </span>
+                    <p>I design and code beautifully simple things, and I love what I do.I'm quietly confident, naturally curious, 
+                        and perpetually working on improving my chops one design problem at a time.</p>
+                        <blockquote class="blockquote">
+                            <p style="color:#00a78e">"Be like a postage stamp; stick to one thing until you get there" <br><span style="color:#00a78e">- Josh Billings</span></p>
+                            
+                          </blockquote>
+                        <a href="#about" class="btn btn-1">About me</a>
+                </div>
+                <div class="home-image">
+                    <div class="img-box">
+                        <img src="images/photo.png" class="photo" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-hero-shape"></div> <!--===== Hero Shape =====-->
+    </section>
+    <!--===== Home Section End =====-->
+    <!--===== About Section Start =====-->
+    <section class=" about-section section-padding" id="about">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="about-image">
+                    <div class="img-box">
+                        <img src="https://media.tenor.com/2uyENRmiUt0AAAAC/coding.gif" style=" width: 69%; height: 588px; border-radius: 51px;" alt="">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="section-title">
+                        <h5 class="sub-title">About</h5>
+                        <h3 class="main-title">About me</h3>
+                        <ul class="line">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div> <!--===== Section Title =====-->
+                    <p>Connected with the web development industry and information technology for many years. <br>
+                        Well-organised person, problem solver, independent with high attention to details.Fan of 
+                        innovative products and technology, tv series and recently, China.
+                        Interested in the entire frontend spectrum and working on ambitious projects with positive people. 
+                    </p>
+                    <div class="row education-btn"><a href="#education" class="btn btn-1">Education</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===== about Section End =====-->
+
+    <!--===== education Section =====-->
+    <section class="service-section section-padding" id="education">
         <div class="container">
             <div class="row">
-                <div class="about-col-1">
-                    <img src="./images/preview.gif" alt="user image">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Self-taught Mern stack developer who loves to solve problems.
-                       I have completed a real time project.
-                         It is an E-commerce web application with backend Node is and frontend Handlebars.</p>
-                         <div class="tab-titles">
-                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                         </div>
-                         <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>UI/UX</span><br> Designing Web/App interface</li>
-                                <li><span>Web Development</span><br> Web App Development</li>
-                                <li><span>App Development</span><br> Building android/iOS apps </li>
-                            </ul>
-                         </div>
-                         <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>UI/UX</span><br> Designing Web/App interface</li>
-                                <li><span>Web Development</span><br> Web App Development</li>
-                                <li><span>App Development</span><br> Building android/iOS apps </li>
-                            </ul>
-                         </div>
-                         <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>2021</span><br>UI/UX Design studying at Udemy</li>
-                                <li><span>2022</span><br>PLUS-TWO(BIO-MATHS) from Kerala state Board ,India</li>
-                                <li><span>2020</span><br>SSLC from Kerala state Board,India </li>
-                            </ul>
-                         </div>  
-                </div>
+                <div class="section-title text-align">
+                    <h5 class="sub-title">Education</h5>
+                    <h3 class="main-title">My Journey</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
             </div>
         </div>
-    </div>
--->
-    <!-----------------------Services------------------------------>
-    <!--
-    <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Web design is the art of planning and arranging content on a website so that it can be shared and accessed online with the world. 
-                       A combination of aesthetic and functional elements, web design is what determines the look of a website—such as its colors, fonts,
-                       and graphics—as well as shaping the site’s structure and the users’ experience of it.</p>
-                         <a href="#">Learn more</a>
+        <div class="">
+            <div class="container">
+              <!--first section-->
+              <div class="row align-items-center how-it-works d-flex">
+                <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                  <div class="circle font-weight-bold">1</div>
                 </div>
-                <div>
-                    <i class="fas fa-crop-alt"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>UI UX technology is a term used to describe the design and development of user interfaces. 
-                      It covers everything from the layout and design of the screens, to the way that the user interacts with the application. 
-                      UI UX technology is a critical part of the development process for any application.</p>
-                         <a href="#">Learn more</a>
+                <div class="col-6">
+                  <h5>2020</h5>
+                <p>High School <span style="color: cadetblue;">SPHSS, UPPUTHARA, IDUKKI</span></p>
                 </div>
-                <div>
-                    <i class="fab fa-app-store"></i>
-                    <h2>App Design</h2>
-                    <p>App design is the look and feel of a mobile application. 
-                       This includes all of the visual elements and interactive elements that impact how the app functions.</p>
-                         <a href="#">Learn more</a>
+              </div>
+              <!--path between 1-2-->
+              <div class="row timeline">
+                <div class="col-2">
+                  <div class="corner top-right"></div>
                 </div>
-
+                <div class="col-8">
+                  <hr/>
+                </div>
+                <div class="col-2">
+                  <div class="corner left-bottom"></div>
+                </div>
+              </div>
+              <!--second section-->
+              <div class="row align-items-center justify-content-end how-it-works d-flex">
+                <div class="col-6 text-right">
+                  <h5>2020-2022</h5>
+                  <p>Higher Secondary <span style="color: cadetblue;">SPHSS,UPPUTHARA,IDUKKI</span> </p>
+                </div>
+                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                  <div class="circle font-weight-bold">2</div>
+                </div>
+              </div>
+              <!--path between 2-3-->
+              <div class="row timeline">
+                <div class="col-2">
+                  <div class="corner right-bottom"></div>
+                </div>
+                <div class="col-8">
+                  <hr/>
+                </div>
+                <div class="col-2">
+                  <div class="corner top-left"></div>
+                </div>
+              </div>
+              <!--third section-->
+              <div class="row align-items-center how-it-works d-flex">
+                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                  <div class="circle font-weight-bold">3</div>
+                </div>
+                <div class="col-6">
+                  <h5>Present </h5>
+                  <p>MERN STACK Development <br>Intern at <span style="color: cadetblue;">CodingHeroes, Cochin, Ernakulam</span></p>
+                </div>
+              </div>
             </div>
-        </div>   
-    </div>
--->
-
+          </div>
+    </section>
+    <!--===== education Section end=====-->
     
-    <!---------------------------------portfolio-------------------------------------->
-
-<!--
-    <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="./images/work-1.png" alt="work1 image">
-                    <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The app connects you yo the talented people around the world.
-                            Download it from play store.</p>
-                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="./images/work-2.png" alt="work2 image">
-                    <div class="layer">
-                        <h3>Music App</h3>
-                        <p>The app connects you yo the talented people around the world.
-                            Download it from play store.</p>
-                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="./images/work-3.png" alt="work3 image">
-                    <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>The app connects you yo the talented people around the world.
-                            Download it from play store.</p>
-                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-            </div>
-            <a href="#" class="btn ">See more</a>
-        </div>
-    </div>
-    
--->
-    <!--------------------------contact----------------------------------->
-<!--
-    <div id="contact">
+    <!--===== skill section =====-->
+    <section class="service-section section-padding" id="skills">
         <div class="container">
             <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fas fa-paper-plane"></i> akhilsoman203@gmail.com</p>
-                    <p><i class="fas fa-phone-square-alt"></i> 8921621520</p>
-                    <div class="social-icons">
-                        <a href="https://www.facebook.com/akhil.soman.7528"><i class="fab fa-facebook"></i></a>
-                        <a href="https://twitter.com/AKHIL_S_IDK?t=oP1oXpv0MBbqvLBga68mLw&s=09"><i class="fab fa-twitter-square"></i></a>
-                        <a href="https://instagram.com/4khil.05?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/akhil-s5"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://wa.me/+918921621520"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                    <a href="./images/" class="btn btn2">Download CV</a>
+                <div class="section-title text-align">
+                    <h5 class="sub-title">Skills</h5>
+                    <h3 class="main-title">Why you hire me?</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
+            </div>
+            <div class="about-skills">
+                <div class="row">
+                    <div class="skill-item col-md-6">
+                        <div class="skill-header">
+                            <h6 class="skill-title">C</h6>
+                            <div class="skill-percentage">
+                                <p><span class="counter">90</span>%</p>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-inner">
+                                <div class="bar progress-line" data-progress="90%"></div>
+                            </div>
+                        </div>
+                    </div> <!--===== Skill Item =====-->
+                    <div class="skill-item col-md-6">
+                        <div class="skill-header">
+                            <h6 class="skill-title">HTML/CSS</h6>
+                            <div class="skill-percentage">
+                                <p><span class="counter">95</span>%</p>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-inner">
+                                <div class="bar progress-line" data-progress="95%"></div>
+                            </div>
+                        </div>
+                    </div> <!--===== Skill Item =====-->
+                    <div class="skill-item col-sm-6">
+                        <div class="skill-header">
+                            <h6 class="skill-title">C++</h6>
+                            <div class="skill-percentage">
+                                <p><span class="counter">80</span>%</p>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-inner">
+                                <div class="bar progress-line" data-progress="80%"></div>
+                            </div>
+                        </div>
+                    </div> <!--===== Skill Item =====-->
+                    <div class="skill-item col-sm-6">
+                        <div class="skill-header">
+                            <h6 class="skill-title">JAVA</h6>
+                            <div class="skill-percentage">
+                                <p><span class="counter">70</span>%</p>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-inner">
+                                <div class="bar progress-line" data-progress="70%"></div>
+                            </div>
+                        </div>
+                    </div> <!--===== Skill Item =====-->
+                    <div class="skill-item col-sm-6">
+                        <div class="skill-header">
+                            <h6 class="skill-title">Node JS</h6>
+                            <div class="skill-percentage">
+                                <p><span class="counter">50</span>%</p>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-inner">
+                                <div class="bar progress-line" data-progress="50%"></div>
+                            </div>
+                        </div>
+                    </div> <!--===== Skill Item =====-->
+                    <div class="skill-item col-sm-6">
+                        <div class="skill-header">
+                            <h6 class="skill-title">BOOTSTRAP</h6>
+                            <div class="skill-percentage">
+                                <p><span class="counter">65</span>%</p>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-inner">
+                                <div class="bar progress-line" data-progress="65%"></div>
+                            </div>
+                        </div>
+                    </div> <!--===== Skill Item =====-->
+                    <div class="skill-item col-sm-6">
+                        <div class="skill-header">
+                            <h6 class="skill-title">JavaScript</h6>
+                            <div class="skill-percentage">
+                                <p><span class="counter">45</span>%</p>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="bar-inner">
+                                <div class="bar progress-line" data-progress="45%"></div>
+                            </div>
+                        </div>
+                    </div> <!--===== Skill Item =====-->
                 </div>
+            </div>
+        </div>
+    </section>
+    <!--===== skills Section End =====-->
 
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                        <span id="msg"></span>
+    <!--===== Services Section Start =====-->
+    <section class="service-section section-padding" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-align">
+                    <h5 class="sub-title">services</h5>
+                    <h3 class="main-title">Services I Provide</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> <!--===== Section Title =====-->
+            </div>
+            <div class="row">
+                <!--===== Service Item Start =====-->
+                <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive design</h3>
+                        <p>Having a responsive layout means that your website fluidly resizes for optimal
+                             viewing regardless of the screen size or device (e.g. iPhone, iPad).</p>
+                    </div>
+                </div>
+                <!--===== Service Item End =====-->
+                <!--===== Service Item Start =====-->
+                <div class="service-item">
+                <div class="service-item-inner">
+                    <div class="icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>web design</h3>
+                    <p>My approach is to create an web design that strengthens your company’s site while ensuring
+                         ease of use and simplicity for your audience.</p>
+                </div>
+            </div>
+            <!--===== Service Item End =====-->
+            <!--===== Service Item Start =====-->
+                <div class="service-item">
+                <div class="service-item-inner">
+                    <div class="icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Full Stack Developer</h3>
+                    <p>Full Stack Developer is someone who works with the server side of the application as
+                         well as the client side.A developer with a creative vision, an analytical bent of mind, 
+                        good time management skills, and a zest for learning makes me a quality developer.</p>
+                </div>
+            </div>
+            <!--===== Service Item End =====-->
+            <!--===== Service Item Start =====-->
+                <div class="service-item">
+                <div class="service-item-inner">
+                    <div class="icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Clean Code</h3>
+                    <p>Clean code is focused-Each function, each class, each module, exposes a single minded
+                        attittude that remains entirely that remains entirely undistracted and unpolluted by the 
+                        surrounding details.
+                    </p>
+                </div>
+            </div>
+            <!--===== Service Item End =====-->
+            <!--===== Service Item Start =====-->
+                <div class="service-item">
+                <div class="service-item-inner">
+                    <div class="icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>seo marketing</h3>
+                    <p>The process of organizing a website's content by topic to improve the likelihood 
+                        of appearing in search results.</p>
+                </div>
+            </div>
+            <!--===== Service Item End =====-->
+            <!--===== Service Item Start =====-->
+                <div class="service-item">
+                <div class="service-item-inner">
+                    <div class="icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>great support</h3>
+                    <p>I'm seeking out opportunities to collaborate with companies/ agencies/ individuals.I want to 
+                        bring my collective design experience to the table where we can work together.If that all sounds 
+                        about right, then lets for sure caht about how we can work together.
+                    </p>
+                </div>
+            </div>
+            <!--===== Service Item End =====-->
+            </div>
+        </div>
+    </section>
+    <!--===== Services Section End =====-->
+    <!--===== Portfolio Section Start =====-->
+    <section class="portfolio section-padding" id="portfolio">
+        <div class="container">
+        <div class="row">
+            <div class="section-title text-align">
+                <h5 class="sub-title">portfolio</h5>
+                <h3 class="main-title">Thing's I've made or learned!</h3>
+                <ul class="line">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div> <!--===== Section Title =====-->
+            </div>
+            <div class="row">
+                <div class="portfolio-filter">
+                    <div class="row">
+                        <!--===== portfolio-item start =====-->
+                        <div class="portfolio-item col-md-4" data-category="wordpress">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/BROTOTYPE-BROTHER-YOU-NEVER-HAD.png" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Html and css</h4>
+                                    <h4><a href="https://nithya-aj.github.io/brototype/" target="_blank">Brototype</a></h4>
+                                    <div class="icon">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--===== portfolio-item end =====-->
+                        <!--===== portfolio-item start =====-->
+                        <div class="portfolio-item col-md-4" data-category="wordpress">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <img style="height: 213px; width: 160px; margin-left: 85px;" src="images/portfolio/js-calculator.png" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>JavaScript</h4>
+                                    <h4><a href="https://nithya-aj.github.io/js-calculator/" target="_blank">JS-Calculator</a></h4>
+                                    <div class="icon">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--===== portfolio-item end =====-->
+                        <!--===== portfolio-item start =====-->
+                        <div class="portfolio-item col-md-4" data-category="photography">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/Cloud-Storage-for-Work-and-Home-Google-Drive.png" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Html, Css & Bootstrap</h4>
+                                    <h4><a href="https://" target="_blank">Google Cloud</a></h4>
+                                    <div class="icon">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--===== portfolio-item end =====-->
+                        <!--===== portfolio-item start =====-->
+                        <div class="portfolio-item col-md-4" data-category="web-design">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/Color-Flipper.png" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>JavaScript</h4>
+                                    <h4><a href="https://" target="_blank">JS-Color Flipper</a></h4>
+                                    <div class="icon">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--===== portfolio-item end =====-->
+                        <!--===== portfolio-item start =====-->
+                        <div class="portfolio-item col-md-4" data-category="wordpress">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/Google-About-Google-Our-Culture-Company-News.png" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>Html and css</h4>
+                                    <h4><a href="https://" target="_blank">Google About</a></h4>
+                                    <div class="icon">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--===== portfolio-item end =====-->
+                        <!--===== portfolio-item start =====-->
+                        <div class="portfolio-item col-md-4" data-category="photography">
+                            <div class="portfolio-item-inner">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/Counter.png" style="height: 213px;width: 160px;margin-left: 85px;" alt="">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h4>JavaScript</h4>
+                                    <h4><a href="https://" target="_blank">JS-Counter</a></h4>
+                                    <div class="icon">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--===== portfolio-item end =====-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===== Portfolio Section End =====-->
+    <!--===== Contact Section Start =====-->
+    <section class="contact-section section-padding" id="contact">
+        <div class="container">
+        <div class="row">
+            <div class="section-title text-align">
+                <h5 class="sub-title">contact</h5>
+                <h3 class="main-title">get in touch</h3>
+                <ul class="line">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div> <!--===== Section Title =====-->
+            </div>
+            <div class="row">
+                <!--===== contact item start =====-->
+                <div class="contact-item">
+                    <div class="contact-item-inner">
+                        <i class="fas fa-phone"></i>
+                        <span>Phone</span>
+                        <p>+91 8921621520</p>
+                    </div>
+                </div>
+                <!--===== contact item end =====-->
+                <!--===== contact item start =====-->
+                <div class="contact-item">
+                <div class="contact-item-inner">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                    <p>akhilsoman203@@gmail.com</p>
+                </div>
+            </div>
+                <!--===== contact item end =====-->
+                <!--===== contact item start =====-->
+                <div class="contact-item">
+                <div class="contact-item-inner">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Address</span>
+                    <p>Onpath Acre Upputhara <br>P O Upputhara, Idukki, Kerala <br>685505</p>
+                </div>
+            </div>
+                <!--===== contact item end =====-->
+            </div>
+                <!--===== Contact Form =====-->
+            <div class="row">
+                <div class="contact-form">
+                    <form action="" id="submit-form">
+                        <div id="error_msg"></div>
+                        <div class="row">
+                            <div class="w-50">
+                                <div class="input-group">
+                                    <input type="text" name="name" id="my_name" placeholder="Name" class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" name="email" id="email" placeholder="Email" class="input-control">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" name="subject" id="subject" placeholder="Subject" class="input-control">
+                                </div>
+                            </div>
+                            <div class="w-50">
+                                <div class="input-group">
+                                    <textarea id="message" name="message" class="input-control" placeholder="Message" cols="30" rows="10" ></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="submit-btn">
+                                <button onclick="return validation()" type="submit" class="btn-1">Send Message</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
-        <div class="copyright">
-            <p>copyright @ Akhil.</p>
+    </section>
+    <!--===== Contact Section End =====-->
+    <!--===== Footer Section Start =====-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <p class="copyright-text">&copy; 2022 by Akhil </p>
+            </div>
+        </div>
+    </footer>
+    <!--===== Footer Section End =====-->
+    <!--===== Lightbox Start =====-->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <div class="lightbox-close">&times;</div>
+            <img src="images/portfolio/portfolio-2.jpg" onclick="nextItem()" class="lightbox-img" alt="">
+            <div class="lightbox-caption">
+                <div class="caption-text"></div>
+                <div class="caption-counter"></div>
+            </div>
+        </div>
+        <div class="lightbox-controls">
+            <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+            <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
         </div>
     </div>
-
-
-
+    <!--===== Lightbox End =====-->
+    <!--===== Main JS =====-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbwFmoz7zetaYEuBXktrNM1S10i1_FDLgeZHJLF0IZb7e9xqrJDDyZjVNjGA50AJwMS5/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    text = "Message sent successfully &#128522";
+                    error_msg.innerHTML = text;
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
     
-    <script>
-
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab"); 
-        }
-
-  
-
-    </script>
-
-    <script>
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu(){
-         sidemenu.style.right = "0";   
-        }
-        function closemenu(){
-         sidemenu.style.right = "-200px";   
-        }
-    </script>
-
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzlrvpsmmF_f05QI-FdJOG0gWMMTMJrdmuzUNP9kjiMY3WfCPco-qwP5cefO53Du2d1/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        /*   .then(response => console.log('Success!', response))  */
-             .then(response => {
-                msg.innerHTML = "Message sent successfully"
-                setTimeout(function() {
-                msg.innerHTML = ""
-
-                },5000)
-             form.reset()
+                }
+            })
         })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script> 
-
-    --->
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
-</html> 
+</html>
